@@ -1,0 +1,30 @@
+﻿$primary: #9932CC;
+$subPrime: #000080;
+
+@import "../lib/bootstrap/scss/bootstrap";
+
+html {
+    height: 100%;
+}
+
+body {
+    background-image: linear-gradient(43deg, rgb(65, 88, 208) 0%, rgb(200, 80, 192) 30%, rgb(255, 204, 112) 66%, rgb(255, 255, 255) 100%);
+    background-repeat: no-repeat;
+    text-decoration: none;
+    color: black;
+    cursor: auto;
+}
+
+.backgroundColour {
+    background-color: #c5585a;
+}
+
+p {
+    font-family: 'Arima', cursive;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: blue;
+    cursor: pointer;
+}
